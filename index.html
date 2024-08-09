@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gopesh Shukla </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            background-color: rgb(0, 0, 33);
+            color: white;
+            
+        }
+        .poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+header{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+   
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0px 24px;
+    font-size: x-large;
+
+}
+nav ul li a{
+   text-decoration: none;
+   color: white;
+
+}
+nav ul li a:hover{
+   /* font-size: xx-large; */
+   color: rgb(183, 120, 241);
+}
+
+#left{
+    font-size: 2rem ;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0px;
+}
+
+.firstsection > div{
+   width: 42%;
+
+}
+.leftsection{
+    /* background-color: red; */
+    font-size: 3rem;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.rightsection{
+    margin-top: 6rem;
+}
+#color{
+    color: rgb(183, 120, 241);
+}
+#element{
+    color: rgb(183, 120, 241);  
+}
+ hr{
+    border: 1px solid white;
+    margin:0% 5% ;
+    /* background-color: purple; */
+}
+.second-section {
+max-width: 80vw;
+margin: auto;
+margin-top: 4%;
+height: 40rem;
+
+}
+.second-section h1{
+    font-size: 3rem;
+}
+.grey-text{
+    color: gray;
+    font-size: 1.25rem;
+}
+.second-section .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+
+
+}
+.second-section p{
+    font-size: x-large;
+}
+.second-section ul{
+    font-size: 20px;
+    margin-left: 10%;
+}
+.second-section h2{
+    font-size: 30px
+}
+.about{
+    height: 500px;
+}
+.about {
+max-width: 80vw;
+margin: auto;
+margin-top: 4%;
+/* height: 40rem; */
+
+}
+.about h1{
+    font-size: 3rem;
+}
+.intro{
+    margin-top: 2%;
+    font-size: 20px;
+    width: 500px;
+    
+}
+.container2{
+    display: flex;
+
+}
+p {
+    font-size: 1.35rem;
+
+}
+#img{
+    display: flex;
+    justify-content: left;
+    /* background-color: aqua; */
+    height: 350px;
+    width: 400px;
+    margin: auto;
+    margin-left: 150px;
+    border-radius: 50px;
+    border: 5px solid ;
+    /* padding-bottom: 40px; */
+}
+img{
+    height: 400px;
+    margin-left:35px ;
+    
+}
+.skillsection{
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 4%;
+    /* height: 500px; */
+}
+dd{
+    font-size: 20px;
+}
+.projectsection{
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 4%;
+    /* height: 500px; */
+}
+.projectsection table{
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 99%;
+}
+.projectsection table th{
+    border: 1px solid white;
+    border-collapse: collapse;
+    font-size: x-large;
+    text-align: center;
+}
+.projectsection table td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    font-size: x-large;
+    text-align: center;
+}
+.projectsection table tr td a{
+    text-decoration: none;
+    
+}
+.cv{
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 4%;
+    /* height: 500px;    */
+}
+button{
+    width: 70px;
+    height: 35px;
+    background-color: rgb(7, 7, 180);
+    font-size: medium;
+    font-weight: 900;
+    border: 1px solid white;
+
+    border-radius: 5px;
+    margin: 10px;
+}
+#btn{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(7, 7, 180);
+    font-size: medium;
+    font-weight: 900;
+    border: 1px solid white;
+    border-radius: 15%;
+}
+.contact{
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 4%;
+    /* height: 500px;    */
+}
+.form{
+ height: 200px;
+    background-color: rgb(28, 2, 90);
+    /* display: flex;
+    justify-content: center; */
+    width: 500px;
+    margin: auto;
+    margin-top: 2rem;
+    border: 2px solid white;
+    border-radius: 1.5rem;
+    font-size: x-large;
+}
+.footer{
+    height: 200px;
+    background-color: rgb(13, 13, 71);
+    max-width: 100%;
+    /* margin: auto; */
+    /* margin-top: 4%; */
+    /* margin-top: px; */
+}
+.footer p{
+    font-size: 3rem;
+    text-align: center;
+    /* margin: 200px; */
+    /* margin-top: 300px; */
+    
+}
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="left">Gopesh's Portfolio</div>
+            <div id="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contect Me</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi I am <span id="color"> Gopesh Shukla</span>
+                <div>and I am a passionate</div>
+                <!-- <div>  web developer</div>  -->
+                <span id="element"></span>
+
+
+            </div>
+            <div class="rightsection">
+                <img src="developer-removebg-preview.png" >
+            </div>
+
+        </section>
+        <hr>
+        <section class="second-section">
+            <span class="grey-text">What I have done  so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box"></div>
+
+            <p>
+                I got an opportunity to work in some reputed companies:-
+                <br><br>
+                <h2>Codsoft</h2>
+
+                <br>
+               <ul>
+                <li>Developed a calculator and a personal portfolio using JavaScript, CSS, and HTML.</li>
+                <li>Created a landing page using HTML and CSS to enhance user engagement.</li>
+                <li>Collaborated with senior developers to troubleshoot and debug code.</li>
+                <li> Participated in code reviews and contributed to improving overall code quality.</li>
+                <li> Gained hands-on experience with various development tools and technologies.</li>
+               </ul>
+                
+                <br><br>
+               <h2> Softpro India</h2>
+               <br>
+                <ul>
+                    <li>Learned MySQL, HTML, CSS, and JavaScript, with a focus on Python and Data Science for internship projects.</li>
+                    <li> Completed the internship in offline mode, providing a hands-on experience.</li>
+                    <li>  Worked on industry projects, applying learned technologies to real-world scenarios.</li>
+                    <li>  Engaged in daily stand-up meetings and sprint planning sessions to ensure project milestones were met.</li>
+                    <li> Improved understanding of the software development lifecycle and best practices.</li>
+                </ul>
+                </p>
+
+        </section>
+       
+       
+       
+        <hr style="margin-top: 90px;">
+        <div class="about">
+            <h1>About</h1>
+            <div class="container2">
+            <div class="intro"><p >I am Gopesh Shukla, a final-year B.Tech student with a strong passion for web development and data science. Throughout my academic journey, I have gained practical experience through internships at Codsoft and Softpro, where I worked extensively with HTML, CSS, JavaScript, MySQL, and Python. At Codsoft, I developed a calculator, a portfolio, and a landing page, while at Softpro, I focused on data analytics with Python and worked on industry projects.
+
+                Currently, I am leading a project called 'Kaavyanjali,' where I am applying my technical and leadership skills to guide my team towards success. I am driven by a desire to solve real-world problems through technology and am always looking for opportunities to grow and excel in the tech industry.</p>
+            </div>
+            <div id="img">
+                <img src="shukla.png" alt="Gopesh Shukla"  >
+            </div>
+        </div>
+            </div></main>
+        </div>
+        </div>
+
+        <hr style="margin-top: 40px;"> 
+        <div class="skillsection">
+            <h1>Skills</h1>
+            <br>
+            <h3>I have developed a diverse set of technical skills through my education and internships, which include:-</h3>
+            <br>
+            <dl>
+                <dt><H2>HTML & CSS</H2></dt>
+                <dd> Proficient in creating structured, responsive, and visually appealing web pages. Developed projects such as calculators, portfolios, and landing pages.</dd>
+                <br>
+                <dt><h2>JavaScript</h2></dt>
+                <dd>Skilled in adding interactivity and dynamic content to web pages. Built form validation systems and other interactive web components.</dd>
+                <br>
+                <dt><h2>MySQL</h2></dt>
+                <dd> Experienced in database management and data manipulation, with hands-on practice from my time at Softpro.</dd>
+                <br>
+                <dt><h2>Python</h2></dt>
+                <dd>Strong foundation in Python, particularly for data analytics. Worked on industry projects, analyzing data to derive meaningful insights.</dd>
+                <br>
+                <dt><h2>Project Management</h2></dt>
+                <dd>Proven leadership skills as the group leader for the 'Kaavyanjali' project, demonstrating my ability to guide a team and manage project deliverables effectively.</dd>
+                <br>
+                <dt><h2>Data Science</h2></dt>
+                <dd>Competent in data analysis and visualization techniques using Python, applying these skills in real-world industry projects during my internship at Softpro.</dd>
+                <br>
+                <dt><h2>Communication Skills</h2></dt>
+                <dd>Excellent communication abilities, enabling effective collaboration with team members, clear presentation of ideas, and strong interpersonal interactions. This skill set has been crucial in successfully leading projects and working within diverse teams</dd>
+                <br>
+                <dd>My technical and communication skills are complemented by a continuous desire to learn and adapt, making me well-equipped to tackle challenges and contribute effectively to any tech-driven environment.</dd>
+            </dl>
+            <br><br>
+            <!-- <hr style="margin: 0px -90px;"> -->
+         </div>
+        
+         <hr>
+
+         <div class="projectsection">
+            <h1>Projects</h1>
+            <br>
+            <table >
+                <tr >
+                    <th  >S.NO</th>
+                    <th >Project Name</th>
+                    <th>Technology Used</th>
+                    <th>Project description</th>
+                    <th>Link</th>
+
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>Form Validation System</td>
+                    <td>HTML, CSS, JS</td>
+                    <td> Ensure user inputs are correct</td>
+                    <td><a href="form validation .mp4">Go</a></td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Calculator</td>
+                    <td>HTML, CSS, JS</td>
+                    <td>Perform mathematics operation</td>
+                    <td><a href="calculator.mp4">Go</a></td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Portfolio Website</td>
+                    <td>HTML, CSS, JS</td>
+                    <td> A personal portfolio website to showcase projects and skills.</td>
+                    <td><a href="index.html">Go</a></td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>Landing Page</td>
+                    <td>HTML, CSS</td>
+                    <td>Visually appealing landing page</td>
+                    <td><a href="#">Go</a></td>
+                </tr>
+                <tr>
+                    <td>05</td>
+                    <td>Kaavyanjali</td>
+                    <td>MERN</td>
+                    <td>An open mic platform for creaters</td>
+                    <td><a href="#">Go</a></td>
+                </tr>
+            </table>
+            <br>
+            <h3>to be countinued....</h3>
+         </div>
+         <br><br>
+         <hr>
+         <div class="cv">
+            <h1>Curriculum vitae</h1>
+            <br>
+            <a href="gopesh resume.pdf"><button id="btn">OPEN</button></a>
+         </div>
+         <br><br>
+         <hr>
+
+         <div class="contact">
+         <h1>Contact </h1>
+            <h3 style="margin-top:2rem ;">Fill this form I will shortly contact you</h3>
+            <div class="form">
+                <center><h1>Contact Me </h1></center>
+                <form action="">
+                <table>
+                
+                <tr>
+               <td><label for="name">Name</label></td>
+                <td><input type="text" id="name"></td>
+                </tr>
+                    <tr>
+                        <td><label for="contact">Phone Number</label></td>
+                        <td><input type="number"></td>
+
+                    </tr>
+                    <tr>
+                        <td><label for="email">E-mail</label></td>
+                        <td><input type="email"></td>
+
+                    </tr>
+                </table>
+                        <button type="submit" onclick="validation()" >Submit</button>
+                    </form>
+           </div>
+        </div>
+        <br><br>
+        <!-- <hr> -->
+        <div class="footer">
+            <br><br><br>
+           <p class="footermsg"><u> Thank You For Visiting Gopesh's Portfolio</u></p>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer','Data Analyst','Poet','Actor','Story Writer'],
+          typeSpeed: 150,
+        });
+
+        function validation(){
+            let name=document.getElementById('name').value;
+            let phone=document.getElementById('number').value;
+            let Email=document.getElementById('email').value;
+
+            if(name.length<3){
+                alert("Enter Valid Number");
+            }
+            else if(phone.length<10||phone.length>12){
+                alert("Enter valid phone number");
+            }
+            else if(!(Email.includes("@"))){
+                alert("Enter orioer Email.");
+            }
+            else{
+                alert("Thank you for connecting with me.");
+            }
+        }
+      </script>
+
+</body>
+</html>
